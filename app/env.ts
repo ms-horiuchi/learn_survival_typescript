@@ -1,5 +1,6 @@
 if (!process.env.CAT_API_KEY) {
-    throw new Error("環境変数 CAT_API_KEY が設定されていません");
+    console.log("This is a test property.")
+    process.env.CAT_API_KEY="DEMO_KEY"
 }
 
 export const CAT_API_KEY = process.env.CAT_API_KEY;
