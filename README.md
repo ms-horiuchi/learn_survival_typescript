@@ -1,0 +1,2 @@
+# learn_survival_typescript
+サバイバルTypeScriptの学習用ソースコードリポジトリ
